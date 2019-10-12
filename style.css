@@ -1,0 +1,59 @@
+
+body {
+    display: grid;
+    grid-template-columns: 10% 15% 45% 20% 10%;
+    grid-template-rows: 15%, 78%, 12%;
+    
+}
+
+header {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+main {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+footer {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.delicious {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.delicious img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.delicious h2{
+    font-family: 'Pacifico', cursive;
+    letter-spacing: .1rem; 
+}
+
+.delicious h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    
+}
+
+.title
+
+ul {
+    background-image: url("./assets/list-bg.png");
+}
