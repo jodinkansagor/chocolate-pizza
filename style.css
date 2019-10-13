@@ -1,10 +1,21 @@
 
-
+.border hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%; 
+    margin-top: 25px;              
+    background-color: grey;
+    height: 5px;
+  }
 
 header {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+}
+
+body {
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -14,7 +25,7 @@ header {
     flex-direction: row;
 }
 
-.title h2, h4 {
+.title-text h2, h4 {
     margin-top: 1px;
     margin-bottom: 1px;
     margin-left: 2px;
@@ -28,44 +39,67 @@ nav {
 }
 
 .delicious img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
 }
 
-.title h2 {
+.title-text h2 {
     font-family: 'Yellowtail', cursive;
+    font-weight: bold;
     font-size: 30px;
+    height: 35px;
 }
 
-.title h4 {
+.title-text h4 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 9px;
     margin: 3px;
     width: 150px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .social {
     margin-right: 10px;
 }
 
+.title h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    height: 25px;
+}
 
-hr {
-    border: 0;
-    clear:both;
-    display:block;
-    width: 96%; 
-    margin-top: 25px;              
-    background-color: grey;
-    height: 1px;
-  }
+.title h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    font-size: 15px;
+}
+
+.print {
+    font-size: 10px;
+}
+
+.date-print {
+    display: flex;
+    flex-direction: rows;
+}
+
+
 
   main {
       display: flex;
       width: 80%;
+      height: 100%;
       flex-direction: column;
-      align-items: center;
   }
+
+.choco-pizza-image {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+
 
 
 /* hr {
