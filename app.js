@@ -2,7 +2,7 @@
 
 const shareButton = document.getElementById('social-share');
 
-shareButton.addEventlistener('click', () => {
+shareButton.addEventListener('click', () => {
     alert('Sharing is disabled at this time');
 });
 
