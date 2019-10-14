@@ -182,20 +182,9 @@ button {
     height: 100px;
 }
 
-footer hr {
-    border: 0;
-    clear:both;
-    display:block;
-    width: 100%; 
-    margin-top: 25px;              
-    background-color: lightgrey;
-    height: 1px;
-    position: relative;
-    
-}
-
 footer img {
-    position: relative;
+    position: absolute;
+    top: 5px;
 }
 
 .about-me-text {
@@ -218,9 +207,20 @@ footer {
     text-align: center;
     width: 100%;
     font-family: 'EB Garamond', serif;
+    position: relative;
+    border-top: 1px solid lightgrey;
 }
 
-footer img, h6 {
-    padding: 0;
-    margin: 5px;
+.footer img {
+    position: absolute;
+    top: -15px;
+}
+
+.footer-text {
+    margin-top: 35px;
+    text-align: center;
+}
+
+footer h6 {
+    margin: 0px;
 }
