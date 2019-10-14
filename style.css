@@ -142,7 +142,7 @@ ul {
 }
 
 li {
-    list-style: square;
+    list-style: none;
     font-family: 'Patrick Hand', cursive;
     font-size: 23px;
     color: #696969;
